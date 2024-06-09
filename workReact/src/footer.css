@@ -1,0 +1,13 @@
+/* Footer.css */
+.footer {
+    width: 100%;
+    background-color: #2c3e50; /* Dark blue background */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align text */
+    padding: 20px 10px; /* Padding around the text */
+    position: fixed; /* Makes the footer stick to the bottom */
+    bottom: 0; /* Align to bottom */
+    left: 0; /* Align to left */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.3); /* Shadow for a slight lifting effect */
+    font-family: 'Arial', sans-serif; /* Font styling */
+}
