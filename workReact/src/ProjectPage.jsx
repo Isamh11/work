@@ -1,8 +1,9 @@
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './employeeDetail.css';  // Ensure this path is correct
 
-const EmployeeDetail = () => {
+const ProjectPage  = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState('');
@@ -64,7 +65,7 @@ const EmployeeDetail = () => {
           <input type="number" name="employee_id" placeholder="Employee ID" required />
           <input type="text" name="full_name" placeholder="Full Name" required />
           <input type="email" name="email" placeholder="Email" required />
-          <input type="password" name="hashed_password" placeholder="Password" required />
+          <input type="password" name="password" placeholder="Password" required />
         </>
       )}
       {type === 'projects' && (
@@ -123,4 +124,4 @@ const EmployeeDetail = () => {
   );
 };
 
-export default EmployeeDetail;
+export default ProjectPage ;
